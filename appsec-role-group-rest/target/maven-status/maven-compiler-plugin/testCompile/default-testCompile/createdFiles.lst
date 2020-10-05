@@ -1,0 +1,3 @@
+com\presinal\anxeliephotoshoot\security\rolegroup\config\TestApplicationConfig.class
+com\presinal\anxeliephotoshoot\security\rolegroup\RestApplicationTest.class
+com\presinal\anxeliephotoshoot\security\rolegroup\service\RoleGroupServiceTest.class

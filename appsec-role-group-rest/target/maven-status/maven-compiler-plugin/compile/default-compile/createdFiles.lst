@@ -1,0 +1,16 @@
+com\presinal\anxeliephotoshoot\security\rolegroup\dto\RoleGroupDto.class
+com\presinal\anxeliephotoshoot\security\rolegroup\config\RoleGroupApplicationConfig.class
+com\presinal\anxeliephotoshoot\security\rolegroup\config\RoleGroupResourceServerConfig$RSConfigurer.class
+com\presinal\anxeliephotoshoot\security\rolegroup\controller\RoleGroupResource.class
+com\presinal\anxeliephotoshoot\security\rolegroup\entity\RoleGroup.class
+com\presinal\anxeliephotoshoot\security\rolegroup\service\RoleGroupServiceImpl.class
+com\presinal\anxeliephotoshoot\security\rolegroup\config\WebfilterConfig.class
+com\presinal\anxeliephotoshoot\security\rolegroup\webfilter\RoleGroupCorsFilter.class
+com\presinal\anxeliephotoshoot\security\rolegroup\RoleGroupRestApplication.class
+com\presinal\anxeliephotoshoot\security\rolegroup\dto\mapper\RoleGroupEntityDtoMapper.class
+com\presinal\anxeliephotoshoot\security\rolegroup\service\RoleGroupServiceImpl$1.class
+com\presinal\anxeliephotoshoot\security\rolegroup\config\RoleGroupResourceServerConfig.class
+com\presinal\anxeliephotoshoot\security\rolegroup\webfilter\RoleGroupSessionCheckFilter.class
+com\presinal\anxeliephotoshoot\security\rolegroup\service\RoleGroupService.class
+com\presinal\anxeliephotoshoot\security\rolegroup\searchcriteria\RoleGroupSearchCriteria.class
+com\presinal\anxeliephotoshoot\security\rolegroup\repository\RoleGroupRepository.class

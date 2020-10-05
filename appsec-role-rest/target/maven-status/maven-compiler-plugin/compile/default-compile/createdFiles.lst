@@ -1,0 +1,16 @@
+com\presinal\appsec\role\searchcriteria\RoleSearchCriteria.class
+com\presinal\appsec\role\RoleRestApplication.class
+com\presinal\appsec\role\webfilter\RoleSessionCheckFilter.class
+com\presinal\appsec\role\config\RoleResourceServerConfig$RSConfigurer.class
+com\presinal\appsec\role\config\RoleApplicationConfig.class
+com\presinal\appsec\role\repository\RoleRepository.class
+com\presinal\appsec\role\config\RoleResourceServerConfig.class
+com\presinal\appsec\role\controller\RoleResource.class
+com\presinal\appsec\role\service\RoleServiceImpl.class
+com\presinal\appsec\role\webfilter\RoleCorsFilter.class
+com\presinal\appsec\role\service\RoleServiceImpl$1.class
+com\presinal\appsec\role\dto\RoleDto.class
+com\presinal\appsec\role\entity\Role.class
+com\presinal\appsec\role\config\WebfilterConfig.class
+com\presinal\appsec\role\service\RoleService.class
+com\presinal\appsec\role\dto\mapper\RoleEntityDtoMapper.class

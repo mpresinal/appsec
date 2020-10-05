@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true" scanPeriod="10 seconds">
+    <include resource="org/springframework/boot/logging/logback/defaults.xml" />        
+    <property name="LOG_FILE" value="${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}}/service.log"/>   
+    <property name="FILE_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} -%5p ${PID:- } --- [%t] %logger : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}}"/>    
+    <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml" />    
+        
+    <appender name="ASYNC-FILE" class="ch.qos.logback.classic.AsyncAppender"> 
+        <appender-ref ref="FILE"/>
+    </appender>   
+    
+        
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+    </root>
+    
+    <!-- Bcm seguridad file appender -->
+    <logger name="${package}" additivity="false" level="INFO">
+        <appender-ref ref="ASYNC-FILE" />  
+    </logger>
+    
+</configuration>
